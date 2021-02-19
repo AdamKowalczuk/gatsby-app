@@ -48,9 +48,6 @@ const IndexPage = ({ data }) => (
           <hr /> */}
         </div>
       ))}
-      <br />
-      <br />
-      <hr />
     </div>
   </Layout>
 )
