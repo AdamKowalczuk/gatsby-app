@@ -27,6 +27,7 @@ import SEO from "../components/seo"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import "../styles/blog.scss"
+
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
