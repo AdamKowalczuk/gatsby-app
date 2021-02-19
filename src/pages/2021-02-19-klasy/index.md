@@ -1,7 +1,8 @@
 ---
-path: "/post-two"
-date: "2021-02-18"
-title: "My Second Gatsby Post"
+path: "/klasy"
+date: "2021-02-19"
+title: "Klasy"
 author: "Adam Kowalczuk"
+
 ---
 This is my second blog post in Gatsby

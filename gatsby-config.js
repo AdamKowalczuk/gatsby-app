@@ -14,6 +14,7 @@ module.exports = {
         path: `${__dirname}/src/pages`,
       },
     },
+    `gatsby-plugin-sass`,
     "gatsby-transformer-remark",
     {
       resolve: `gatsby-source-filesystem`,

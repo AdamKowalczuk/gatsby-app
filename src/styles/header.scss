@@ -1,0 +1,22 @@
+$dark:#333643;
+$yellow:#cdad61;
+$dark-blue:#5983b3;
+$light-blue:#70a4d3;
+
+header{
+    div{
+        display: flex;
+        align-items: center;
+        h1{
+            flex-grow: 2;
+            // display: flex;
+        }
+        h3{
+            flex-grow: 1;
+            padding-top: "10px";
+            margin:0;
+            color: white;
+        }
+    }
+
+}

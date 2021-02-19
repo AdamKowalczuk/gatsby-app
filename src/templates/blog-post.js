@@ -1,20 +1,26 @@
 import React from "react"
 import Link from "gatsby-link"
 import Layout from "../components/layout"
-import Menu from "../components/menu"
+// import Menu from "../components/menu"
+import "../styles/blog-post.scss"
 export default function Template({ data }) {
   const post = (data = data.markdownRemark)
 
   return (
     <Layout>
-      <Menu />
-      <Link to="/blog">Go back</Link>
-      <hr />
-      <h1>{post.frontmatter.title}</h1>
-      <h4>
-        Posted by {post.frontmatter.author} on {post.frontmatter.date}
-      </h4>
-      <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
+      <div className="blog-post">
+        <Link to="/">Wróć</Link>
+        <hr />
+        <h1>{post.frontmatter.title}</h1>
+        <div
+          className="excerpt"
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        ></div>
+        <small>Opublikowane przez {post.frontmatter.author}</small>
+        <br />
+        <small>{post.frontmatter.date}</small>
+      </div>
+      {/* <Menu /> */}
     </Layout>
   )
 }

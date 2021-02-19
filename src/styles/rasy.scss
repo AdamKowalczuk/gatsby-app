@@ -1,0 +1,37 @@
+$dark:#333643;
+$yellow:#cdad61;
+$dark-blue:#5983b3;
+$light-blue:#70a4d3;
+
+.races{
+
+    h1{
+        text-align: center;
+        color: $yellow;
+    }
+    h2{
+        text-align: center;
+        color: white;
+    }
+
+    margin-top: 30px;
+    background:$dark ;
+    border-radius: 5px;
+    padding: 10px;
+
+    .races-container{
+        display: flex;
+        .alliance{
+            flex-grow: 1;
+        }
+        .horde{
+            flex-grow: 1;
+        }
+        img{
+            // width: 30vw;
+            height: 40vh;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+    }
+}

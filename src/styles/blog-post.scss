@@ -1,0 +1,20 @@
+$dark:#333643;
+$yellow:#cdad61;
+$dark-blue:#5983b3;
+$light-blue:#70a4d3;
+
+.blog-post{
+    margin-top: 30px;
+    background:$dark ;
+    border-radius: 5px;
+    padding: 10px;
+    h1{
+        color: $yellow;
+    }
+    small{
+        color: white;
+    }
+    .excerpt{
+        color: white;
+    }
+}
