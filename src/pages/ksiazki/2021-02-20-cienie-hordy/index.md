@@ -1,5 +1,5 @@
 ---
-path: "/cienie-wojny"
+path: "/cienie-hordy"
 date: "2021-02-20"
 title: "Vol'Jin Cienie Hordy"
 author: "Adam Kowalczuk"

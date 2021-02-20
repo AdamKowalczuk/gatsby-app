@@ -1,0 +1,36 @@
+$dark:#333643;
+$yellow:#cdad61;
+$dark-blue:#5983b3;
+$light-blue:#70a4d3;
+
+
+.books-container{
+    background:$dark ;
+    border-radius: 5px;
+    padding: 10px;
+
+    .books-image{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+
+    }
+    h1{
+        text-align: center;
+        color: $yellow;
+    }
+    h2{
+        text-align: center;
+        color: white;
+    }
+
+    img{
+        flex-shrink: 1;
+        border-radius: 10px;
+        cursor: pointer;
+        max-width: 230px;
+        max-height: 320px;
+        padding: 5px;
+    }
+}
