@@ -5,4 +5,4 @@ title: "Klasy"
 author: "Adam Kowalczuk"
 
 ---
-This is my second blog post in Gatsby
+Klasy w Warcrafcie

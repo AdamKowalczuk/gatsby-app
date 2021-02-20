@@ -3,8 +3,16 @@ $yellow:#cdad61;
 $dark-blue:#5983b3;
 $light-blue:#70a4d3;
 
+.return-link{
+    display: inline-block;
+    color: white;
+    background: $dark;
+    padding: 5px 15px;
+    border-top-right-radius: 10px;
+    margin-top: 30px;
+    border-bottom:1px solid white;
+}
 .races{
-
     h1{
         text-align: center;
         color: $yellow;
@@ -13,25 +21,42 @@ $light-blue:#70a4d3;
         text-align: center;
         color: white;
     }
-
-    margin-top: 30px;
     background:$dark ;
     border-radius: 5px;
     padding: 10px;
 
     .races-container{
         display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row;
+        align-content: center;
+        flex-grow: 1;
+        .alliance,.horde{
+            display: flex;
+            align-items: center;
+            flex-flow: column;
+            width: 30vw;
+        }
         .alliance{
-            flex-grow: 1;
+
+
         }
         .horde{
-            flex-grow: 1;
         }
         img{
-            // width: 30vw;
-            height: 40vh;
+            width:20vw;
+            height:20vw;
             border-radius: 30px;
             cursor: pointer;
+        }
+        blockquote{
+            min-height: 28vh;
+            padding: 10px;
+        }
+        q{
+            font-family: cursive;
+            color: $yellow;
         }
     }
 }

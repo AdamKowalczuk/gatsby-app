@@ -36,12 +36,12 @@ const IndexPage = ({ data }) => (
       <h1>Ostatnie posty</h1>
       {data.allMarkdownRemark.edges.map(post => (
         <div key={post.node.id} className="recent-post">
+          {/* <small>Opublikowane przez {post.node.frontmatter.author}</small>
+          <br /> */}
+          <small>Opublikowano : {post.node.frontmatter.date}</small>
           <h3>{post.node.frontmatter.title}</h3>
           {/* <img src={post.node.frontmatter.image} alt="blog-image" /> */}
 
-          <small>Opublikowane przez {post.node.frontmatter.author}</small>
-          <br />
-          <small>{post.node.frontmatter.date}</small>
           <br />
           {/* <br /> */}
           <Link to={post.node.frontmatter.path}>Dowiedz się więcej</Link>

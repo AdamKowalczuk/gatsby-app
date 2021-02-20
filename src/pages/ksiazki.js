@@ -6,10 +6,11 @@ import SEO from "../components/seo"
 
 const KsiazkiPage = () => (
   <Layout>
-    <SEO title="Page ksiazki" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <SEO title="Races page" />
+    <Link className="return-link" to="/">
+      Wróć
+    </Link>
+    <h3>Książki</h3>
   </Layout>
 )
 

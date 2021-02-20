@@ -38,7 +38,7 @@ const Header = ({ siteTitle }) => (
         <Link to="/gry">Gry</Link>
       </h3>
       <h3>
-        <Link to="/książki">Książki</Link>
+        <Link to="/ksiazki">Książki</Link>
       </h3>
     </div>
   </header>

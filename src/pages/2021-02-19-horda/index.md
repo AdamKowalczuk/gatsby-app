@@ -5,4 +5,4 @@ title: "Horda"
 author: "Adam Kowalczuk"
 
 ---
-This is my second blog post in Gatsby
+Opis hordy

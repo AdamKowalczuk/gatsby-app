@@ -1,7 +1,7 @@
-/* dark-#333643
-yellow-#cdad61
-dark-blue-#5983b3
-light-blue-#70a4d3 */
+$dark:#333643;
+$yellow:#cdad61;
+$dark-blue:#5983b3;
+$light-blue:#70a4d3;
 
 html {
   -ms-text-size-adjust: 100%;
@@ -14,7 +14,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: hsla(0, 0%, 0%, 0.8);
+  color: white;
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -24,9 +24,6 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
   background:#cdad61 ;
-  /* background-image: url('../images/tlo.jpg');
-  background-size: cover;
-  background-repeat: no-repeat; */
   background: url('../images/tlo.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -605,6 +602,16 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: "";
+}
+.return-link{
+
+  display: inline-block;
+  color: white;
+  background: $dark;
+  padding: 5px 15px;
+  border-top-right-radius: 10px;
+  margin-top: 30px;
+  border-bottom:1px solid white;
 }
 @media only screen and (max-width: 480px) {
   html {
