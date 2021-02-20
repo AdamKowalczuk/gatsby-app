@@ -31,23 +31,21 @@ import "../styles/blog.scss"
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Strona główna" />
     <div className="blog-container">
       <h1>Ostatnie posty</h1>
       {data.allMarkdownRemark.edges.map(post => (
         <div key={post.node.id} className="recent-post">
-          {/* <small>Opublikowane przez {post.node.frontmatter.author}</small>
-          <br /> */}
           <small>Opublikowano : {post.node.frontmatter.date}</small>
           <h3>{post.node.frontmatter.title}</h3>
-          {/* <img src={post.node.frontmatter.image} alt="blog-image" /> */}
-
+          <img
+            src={post.node.frontmatter.image.childImageSharp.original.src}
+            alt="cos"
+            style={{ width: "100px", height: "100px" }}
+          />
           <br />
-          {/* <br /> */}
           <Link to={post.node.frontmatter.path}>Dowiedz się więcej</Link>
           <br />
-          {/* <br />
-          <hr /> */}
         </div>
       ))}
     </div>
@@ -65,6 +63,13 @@ export const pageQuery = graphql`
             title
             date
             author
+            image {
+              childImageSharp {
+                original {
+                  src
+                }
+              }
+            }
           }
         }
       }

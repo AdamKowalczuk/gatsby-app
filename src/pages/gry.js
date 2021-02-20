@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 
 const GryPage = () => (
   <Layout>
-    <SEO title="Races page" />
+    <SEO title="Gry Warcrafta" />
     <Link className="return-link" to="/">
       Wróć
     </Link>

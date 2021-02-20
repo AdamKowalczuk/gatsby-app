@@ -32,7 +32,7 @@ const Header = ({ siteTitle }) => (
         <Link to="/rasy">Rasy</Link>
       </h3>
       <h3>
-        <Link to="/klasy">Klasy</Link>
+        <Link to="/profesje">Profesje</Link>
       </h3>
       <h3>
         <Link to="/gry">Gry</Link>

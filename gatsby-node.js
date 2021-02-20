@@ -29,6 +29,13 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               title
               date
               author
+              image {
+                childImageSharp {
+                  original {
+                    src
+                  }
+                }
+              }
             }
           }
         }

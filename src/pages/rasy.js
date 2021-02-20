@@ -9,7 +9,7 @@ import "../styles/rasy.scss"
 
 const RacesPage = () => (
   <Layout>
-    <SEO title="Races page" />
+    <SEO title="Rasy Warcrafta" />
     <Link className="return-link" to="/">
       Wróć
     </Link>

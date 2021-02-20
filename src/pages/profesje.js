@@ -4,14 +4,14 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const KsiazkiPage = () => (
+const ProfesjePage = () => (
   <Layout>
-    <SEO title="Książki Warcrafta" />
+    <SEO title="Profesje postaci" />
     <Link className="return-link" to="/">
       Wróć
     </Link>
-    <h3>Książki</h3>
+    <h3>Profesje</h3>
   </Layout>
 )
 
-export default KsiazkiPage
+export default ProfesjePage
