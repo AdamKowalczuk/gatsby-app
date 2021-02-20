@@ -1,6 +1,7 @@
 import React from "react"
 import Link from "gatsby-link"
 import Layout from "../components/layout"
+import { graphql } from "gatsby"
 // import Menu from "../components/menu"
 import "../styles/blog-post.scss"
 export default function Template({ data }) {
