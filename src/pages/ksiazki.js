@@ -3,20 +3,22 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ksiazka1 from "../images/ksiazka1.jpg"
-import ksiazka2 from "../images/ksiazka2.jpg"
-import ksiazka3 from "../images/ksiazka3.jpg"
-import ksiazka4 from "../images/ksiazka4.jpg"
-import ksiazka5 from "../images/ksiazka5.jpg"
-import ksiazka6 from "../images/ksiazka6.jpg"
-import ksiazka7 from "../images/ksiazka7.jpg"
-import ksiazka8 from "../images/ksiazka8.jpg"
-import ksiazka9 from "../images/ksiazka9.jpg"
-import ksiazka10 from "../images/ksiazka10.jpg"
-import ksiazka11 from "../images/ksiazka11.jpg"
-import ksiazka12 from "../images/ksiazka12.jpg"
-import ksiazka13 from "../images/ksiazka13.jpg"
-import ksiazka14 from "../images/ksiazka14.jpg"
+import cienie_hordy from "../images/cienie-hordy.jpg"
+import cisza_przed_burza from "../images/cisza-przed-burza.jpg"
+import fale_ciemnosci from "../images/fale-ciemnosci.jpg"
+import illidan from "../images/illidan.jpg"
+import krag_nienawisci from "../images/krag-nienawisci.jpg"
+import kroniki1 from "../images/kroniki1.jpg"
+import kroniki2 from "../images/kroniki2.jpg"
+import malfurion from "../images/malfurion.jpg"
+import narodziny_hordy from "../images/narodziny-hordy.jpg"
+import ostatni_straznik from "../images/ostatni-straznik.jpg"
+import przebudzenie_cieni from "../images/przebudzenie-cieni.jpg"
+import przebudzenie_krola_lisza from "../images/przebudzenie-krola-lisza.jpg"
+import przez_mroczny_portal from "../images/przez-mroczny-portal.jpg"
+import wedrowiec from "../images/wedrowiec.jpg"
+import wichry_wojny from "../images/wichry-wojny.jpg"
+import zbrodnie_wojenne from "../images/zbrodnie-wojenne.jpg"
 import "../styles/ksiazki.scss"
 
 const KsiazkiPage = () => (
@@ -29,47 +31,53 @@ const KsiazkiPage = () => (
     <div className="books-container">
       <h1>Książki</h1>
       <div className="books-image">
-        <a href="/cienie-hordy">
-          <img src={ksiazka1} alt="cienie-hordy" />
-        </a>
-        <a href="/wichry-wojny">
-          <img src={ksiazka2} alt="wichry-wojny" />
-        </a>
-        <a href="/krag-nienawisci">
-          <img src={ksiazka3} alt="krag-nienawisci" />
-        </a>
-        <a href="/illidan">
-          <img src={ksiazka4} alt="illidan" />
-        </a>
-        <a href="/cisza-przed-burza">
-          <img src={ksiazka5} alt="cisza-przed-burza" />
+        <a href="/zbrodnie-wojenne">
+          <img src={zbrodnie_wojenne} alt="zbrodnie-wojenne" />
         </a>
         <a href="/kronika2">
-          <img src={ksiazka6} alt="kronika2" />
-        </a>
-        <a href="/zbrodnie-wojenne">
-          <img src={ksiazka7} alt="zbrodnie-wojenne" />
-        </a>
-        <a href="/kroniki1">
-          <img src={ksiazka8} alt="kroniki1" />
+          <img src={kroniki2} alt="kroniki2" />
         </a>
         <a href="/fale-ciemnosci">
-          <img src={ksiazka9} alt="fale-ciemnosci" />
-        </a>
-        <a href="/malfurion">
-          <img src={ksiazka10} alt="malfurion" />
+          <img src={fale_ciemnosci} alt="fale-ciemnosci" />
         </a>
         <a href="/narodziny-hordy">
-          <img src={ksiazka11} alt="narodziny-hordy" />
+          <img src={narodziny_hordy} alt="narodziny-hordy" />
+        </a>
+        <a href="/przebudzenie-krola-lisza">
+          <img src={przebudzenie_krola_lisza} alt="przebudzenie-krola-lisza" />
+        </a>
+        <a href="/wedrowiec">
+          <img src={wedrowiec} alt="wedrowiec" />
+        </a>
+        <a href="/illidan">
+          <img src={illidan} alt="illidan" />
+        </a>
+        <a href="/krag-nienawisci">
+          <img src={krag_nienawisci} alt="krag-nienawisci" />
         </a>
         <a href="/ostatni-straznik">
-          <img src={ksiazka12} alt="ostatni-straznik" />
+          <img src={ostatni_straznik} alt="ostatni-straznik" />
         </a>
-        <a href="/przebudzenie-cieni">
-          <img src={ksiazka13} alt="przebudzenie-cieni" />
+        <a href="przebudzenie-cieni">
+          <img src={przebudzenie_cieni} alt="przebudzenie-cieni" />
         </a>
         <a href="/przez-mroczny-portal">
-          <img src={ksiazka14} alt="przez-mroczny-portal" />
+          <img src={przez_mroczny_portal} alt="przez-mroczny-portal" />
+        </a>
+        <a href="/malfurion">
+          <img src={malfurion} alt="malfurion" />
+        </a>
+        <a href="/wichry-wojny">
+          <img src={wichry_wojny} alt="wichry-wojny" />
+        </a>
+        <a href="/kronika1">
+          <img src={kroniki1} alt="kroniki1" />
+        </a>
+        <a href="/cienie-hordy">
+          <img src={cienie_hordy} alt="cienie-hordy" />
+        </a>
+        <a href="/przez-mroczny-portal">
+          <img src={cisza_przed_burza} alt="cisza-przed-burza" />
         </a>
       </div>
     </div>

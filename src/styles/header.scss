@@ -2,7 +2,10 @@ $dark:#333643;
 $yellow:#cdad61;
 $dark-blue:#5983b3;
 $light-blue:#70a4d3;
-
+@font-face {
+    font-family: LifeCraftFont;
+    src: url(../LifeCraft_Font.ttf);
+  }
 header{
     div{
         display: flex;
@@ -10,12 +13,20 @@ header{
         h1{
             flex-grow: 2;
             // display: flex;
+            // font-weight:100;
+            // letter-spacing: 5px;
+            // font-family:LifeCraftFont;
+            font-family: 'Montserrat', sans-serif;
+
         }
         h3{
             flex-grow: 1;
             padding-top: "10px";
             margin:0;
             color: white;
+            // font-weight:100;
+            // letter-spacing: 2px;
+            // font-family:LifeCraftFont;
         }
     }
 

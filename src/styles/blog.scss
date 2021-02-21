@@ -2,11 +2,12 @@ $dark:#333643;
 $yellow:#cdad61;
 $dark-blue:#5983b3;
 $light-blue:#70a4d3;
-
 .blog-container{
     h1{
         color: white;
         text-align: center;
+        margin-top: 10px;
+
     }
     small{
       color:white;
@@ -14,6 +15,7 @@ $light-blue:#70a4d3;
     }
     h3{
       color: white;
+      font-family: 'Montserrat', sans-serif;
     }
     img{
       // max-width: 150px;

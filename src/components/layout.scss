@@ -2,7 +2,8 @@ $dark:#333643;
 $yellow:#cdad61;
 $dark-blue:#5983b3;
 $light-blue:#70a4d3;
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap');
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -100,6 +101,7 @@ h1 {
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
+  font-family: 'Montserrat', sans-serif;
 }
 mark {
   background-color: #ff0;
@@ -107,6 +109,8 @@ mark {
 }
 small {
   font-size: 80%;
+  font-family: 'Roboto', sans-serif;
+
 }
 sub,
 sup {
@@ -279,6 +283,7 @@ h2 {
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
+  font-family: 'Roboto', sans-serif;
 }
 h3 {
   margin-left: 0;
@@ -296,6 +301,8 @@ h3 {
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;
+  font-family: 'Roboto', sans-serif;
+
 }
 h4 {
   margin-left: 0;
@@ -313,6 +320,7 @@ h4 {
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.1;
+  font-family: 'Roboto', sans-serif;
 }
 h5 {
   margin-left: 0;
@@ -411,6 +419,7 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  font-family: 'Montserrat', sans-serif;
 }
 pre {
   margin-left: 0;
@@ -448,6 +457,7 @@ blockquote {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  font-family: 'Montserrat', sans-serif;
 }
 form {
   margin-left: 0;

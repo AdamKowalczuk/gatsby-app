@@ -28,7 +28,6 @@ import { graphql } from "gatsby"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import "../styles/blog.scss"
-
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Strona główna" />
@@ -53,7 +52,7 @@ const IndexPage = ({ data }) => (
 
 export const pageQuery = graphql`
   query BlogIndexQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           id
