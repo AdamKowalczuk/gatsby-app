@@ -52,7 +52,10 @@ const IndexPage = ({ data }) => (
 
 export const pageQuery = graphql`
   query BlogIndexQuery {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      limit: 8
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
           id
