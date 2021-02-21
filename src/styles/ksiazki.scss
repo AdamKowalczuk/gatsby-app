@@ -32,5 +32,14 @@ $light-blue:#70a4d3;
         max-width: 230px;
         max-height: 320px;
         padding: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        transition: ease-in-out 0.5s;
+    }
+    img:hover{
+        opacity: 0.7;
+
+        transform: rotateY(-28deg) rotateZ(-2deg) scale(1.02);
+        box-shadow: 1px 3px 2px grey, 20px 8px 0 #a4a4a4;
     }
 }

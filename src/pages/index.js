@@ -40,8 +40,7 @@ const IndexPage = ({ data }) => (
           <h3>{post.node.frontmatter.title}</h3>
           <img
             src={post.node.frontmatter.image.childImageSharp.original.src}
-            alt="cos"
-            style={{ width: "100px", height: "100px" }}
+            alt={post.node.frontmatter.title}
           />
           <br />
           <Link to={post.node.frontmatter.path}>Dowiedz się więcej</Link>
