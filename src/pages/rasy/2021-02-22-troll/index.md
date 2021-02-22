@@ -1,5 +1,5 @@
 ---
-path: "/trole"
+path: "/trolle"
 date: "2021-02-22"
 title: "Trole"
 author: "Adam Kowalczuk"
