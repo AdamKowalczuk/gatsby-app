@@ -38,12 +38,6 @@ $light-blue:#70a4d3;
             flex-flow: column;
             width: 30vw;
         }
-        .alliance{
-
-
-        }
-        .horde{
-        }
         img{
             width:90%;
             min-height: 300px;
@@ -59,6 +53,35 @@ $light-blue:#70a4d3;
         q{
             font-family: cursive;
             color: $yellow;
+        }
+    }
+}
+
+@media screen and (max-width: 759px){
+
+    .races{
+        h1{
+            font-size: 1.8rem;
+        }
+        h2{
+            font-size: 1.4rem;
+        }
+        .races-container{
+            .alliance,.horde{
+                width: 40vw;
+            }
+            img{
+                width:90%;
+                min-height: 110px;
+            }
+            blockquote{
+                padding: 0px;
+                min-height: 80vh;
+            }
+            q{
+                font-size: 1rem;
+                line-height: 1;
+            }
         }
     }
 }

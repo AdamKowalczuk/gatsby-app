@@ -45,3 +45,15 @@ $light-blue:#70a4d3;
         margin: -20px;
       }
 }
+@media screen and (max-width: 759px){
+  .blog-container{
+    h1{
+        font-size: 1.6rem;
+    }
+    img{
+      height: 100px;
+    }
+
+
+}
+}

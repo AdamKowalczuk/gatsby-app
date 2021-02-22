@@ -42,3 +42,15 @@ $light-blue:#70a4d3;
         box-shadow: 1px 3px 2px grey, 20px 8px 0 #a4a4a4;
     }
 }
+@media screen and (max-width: 759px){
+    .books-container{
+        h1{
+            font-size: 1.8rem;
+        }
+
+        img{
+            max-width: 180px;
+            max-height: 270px;
+        }
+    }
+}

@@ -66,3 +66,14 @@ $light-blue:#70a4d3;
     // color: white;
     transform: rotateY(180deg);
   }
+  @media screen and (max-width: 759px){
+    .race-container{
+      h1{
+          font-size: 1.8rem;
+      }
+  }
+  .flip-card {
+      width: 200px;
+      height: 200px;
+    }
+  }
