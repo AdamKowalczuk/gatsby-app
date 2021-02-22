@@ -5,9 +5,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import przymierze from "../images/AllianceCrest.jpg"
 import horda from "../images/HordeCrest.jpg"
-import "../styles/rasy.scss"
+import "../styles/frakcje.scss"
 
-const RacesPage = () => (
+const FractionPage = () => (
   <Layout>
     <SEO title="Rasy Warcrafta" />
     <Link className="return-link" to="/">
@@ -52,4 +52,4 @@ const RacesPage = () => (
   </Layout>
 )
 
-export default RacesPage
+export default FractionPage

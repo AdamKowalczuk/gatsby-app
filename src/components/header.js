@@ -35,7 +35,7 @@ const Header = ({ siteTitle }) => (
         <Link to="/profesje">Profesje</Link>
       </h3>
       <h3>
-        <Link to="/gry">Gry</Link>
+        <Link to="/frakcje">Frakcje</Link>
       </h3>
       <h3>
         <Link to="/ksiazki">Książki</Link>
