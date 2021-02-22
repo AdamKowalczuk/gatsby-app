@@ -133,12 +133,12 @@ const RacePage = () => (
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <a href="/trolle">
+              <a href="/trole">
                 <img src={troll} alt="troll" />
               </a>
             </div>
             <div className="flip-card-back">
-              <a href="/trolle">
+              <a href="/trole">
                 <img src={horde} alt="horda" />
               </a>
             </div>
