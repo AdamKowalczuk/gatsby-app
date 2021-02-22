@@ -119,12 +119,12 @@ const RacePage = () => (
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <a href="/krwawy-elf">
+              <a href="/krwawe-elfy">
                 <img src={blood_elf} alt="krawawy-elf" />
               </a>
             </div>
             <div className="flip-card-back">
-              <a href="/krwawy-elf">
+              <a href="/krwawe-elfy">
                 <img src={horde} alt="horda" />
               </a>
             </div>
@@ -133,12 +133,12 @@ const RacePage = () => (
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <a href="/troll">
+              <a href="/trolle">
                 <img src={troll} alt="troll" />
               </a>
             </div>
             <div className="flip-card-back">
-              <a href="/troll">
+              <a href="/trolle">
                 <img src={horde} alt="horda" />
               </a>
             </div>
@@ -147,12 +147,12 @@ const RacePage = () => (
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <a href="/gnom">
+              <a href="/gnomy">
                 <img src={gnome} alt="gnom" />
               </a>
             </div>
             <div className="flip-card-back">
-              <a href="/gnom">
+              <a href="/gnomy">
                 <img src={alliance} alt="przymierz" />
               </a>
             </div>
@@ -161,12 +161,12 @@ const RacePage = () => (
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <a href="/tauren">
+              <a href="/taureni">
                 <img src={tauren} alt="tauren" />
               </a>
             </div>
             <div className="flip-card-back">
-              <a href="/tauren">
+              <a href="/taureni">
                 <img src={horde} alt="horda" />
               </a>
             </div>
@@ -175,12 +175,12 @@ const RacePage = () => (
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <a href="/nieumarly">
+              <a href="/nieumarli">
                 <img src={undead} alt="nieumarly" />
               </a>
             </div>
             <div className="flip-card-back">
-              <a href="/nieumarly">
+              <a href="/nieumarli">
                 <img src={horde} alt="horda" />
               </a>
             </div>
@@ -189,12 +189,12 @@ const RacePage = () => (
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <a href="/nocny-elf">
+              <a href="/nocne-elfy">
                 <img src={night_elf} alt="nocny-elf" />
               </a>
             </div>
             <div className="flip-card-back">
-              <a href="/nocny-elf">
+              <a href="/nocne-elfy">
                 <img src={alliance} alt="przymierz" />
               </a>
             </div>
@@ -203,12 +203,12 @@ const RacePage = () => (
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <a href="/goblin">
+              <a href="/gobliny">
                 <img src={goblin} alt="goblin" />
               </a>
             </div>
             <div className="flip-card-back">
-              <a href="/goblin">
+              <a href="/gobliny">
                 <img src={horde} alt="horda" />
               </a>
             </div>
