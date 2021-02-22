@@ -28,18 +28,37 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <h3>
-        <Link to="/rasy">Rasy</Link>
-      </h3>
-      <h3>
-        <Link to="/profesje">Profesje</Link>
-      </h3>
-      <h3>
-        <Link to="/frakcje">Frakcje</Link>
-      </h3>
-      <h3>
-        <Link to="/ksiazki">Książki</Link>
-      </h3>
+      <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+          <h3>
+            <Link to="/rasy">Rasy</Link>
+          </h3>
+          <h3>
+            <Link to="/profesje">Profesje</Link>
+          </h3>
+          <h3>
+            <Link to="/frakcje">Frakcje</Link>
+          </h3>
+          <h3>
+            <Link to="/ksiazki">Książki</Link>
+          </h3>
+        </div>
+      </div>
+      <div className="menu">
+        <h3>
+          <Link to="/rasy">Rasy</Link>
+        </h3>
+        <h3>
+          <Link to="/profesje">Profesje</Link>
+        </h3>
+        <h3>
+          <Link to="/frakcje">Frakcje</Link>
+        </h3>
+        <h3>
+          <Link to="/ksiazki">Książki</Link>
+        </h3>
+      </div>
     </div>
   </header>
 )

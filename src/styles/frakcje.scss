@@ -60,18 +60,9 @@ $light-blue:#70a4d3;
 @media screen and (max-width: 759px){
 
     .races{
-        h1{
-            text-align: center;
-            color: $yellow;
-        }
         h2{
-            text-align: center;
-            color: white;
             margin-top: 20px;
         }
-        background:$dark ;
-        border-radius: 5px;
-        padding: 10px;
 
         .races-container{
             display: block;
