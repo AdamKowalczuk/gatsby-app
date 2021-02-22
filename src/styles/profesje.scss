@@ -39,8 +39,8 @@ $light-blue:#70a4d3;
             .class-text{
 
                 padding:5px;
-                text-align: center;
-
+                padding-left: 10px;
+                text-align: left;
                 p{
                     font-size: 0.8rem;
                 }
@@ -65,13 +65,14 @@ $light-blue:#70a4d3;
     .class-container{
         .class-box{
             .class{
+                padding:0px;
                 width: 100%;
                 img{
                     width: 40%;
                     max-height: 240px;
+                    padding:5px;
                 }
             }
-
             .class:nth-child(even){
                 .class-text{
                     color: white;

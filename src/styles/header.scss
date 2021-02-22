@@ -30,5 +30,19 @@ header{
             // font-family:LifeCraftFont;
         }
     }
+}
 
+@media screen and (max-width: 759px){
+    header{
+        div{
+            h1{
+
+                font-size: 1.6rem;
+
+            }
+            h3{
+            }
+        }
+
+    }
 }
